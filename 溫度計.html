@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meat charest = "utf-8">
+		<title>A First Program in JavaScript</title>
+		<script>
+			var number;
+			number = window.prompt("請輸入攝氏溫度");
+			temperatureT = parseInt(number);
+			
+			function turn(t){	
+			temperatureF = 9/5*temperatureT+32;
+			return temperatureF.toFixed(1);
+			}
+			
+			document.writeln(
+				"<h1>攝氏溫度為" + temperatureT +"，華氏溫度為 " + turn(temperatureT) + "</h1>");
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
